@@ -39,4 +39,21 @@ public class Visitor {
         return false;
 
     }
+
+    public boolean checkAgeIfTwelve (Visitor visitor){
+        if (this.age > 12){
+            return true;
+        }
+        return false;
+
+    }
+
+    public boolean checkHeightOfVisitor(Visitor visitor){
+        if (this.height > 145){
+            return true;
+        }
+        return false;
+    }
+
+
 }
