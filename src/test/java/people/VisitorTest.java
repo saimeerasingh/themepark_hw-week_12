@@ -30,5 +30,5 @@ public class VisitorTest {
     }
 
     @Test
-    public void canCheckAge(){ assertEquals(false, visitor.checkAge(visitor));}
+    public void canCheckAge(){ assertEquals(false, visitor.checkAgeIfFifteen(visitor));}
 }
