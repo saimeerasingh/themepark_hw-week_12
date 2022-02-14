@@ -23,4 +23,12 @@ public class Visitor {
     public double getMoney() {
         return money;
     }
+
+    public boolean checkAge(Visitor visitor){
+        if (this.age > 15){
+            return true;
+        }
+        return false;
+
+    }
 }
